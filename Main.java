@@ -19,8 +19,11 @@ public class Main {
                 showLoginRegister();
             }
 
-            scanner.close();
+            if (input.equals("")) {
+                break;
+            }
         }
+        scanner.close();
     }
 
     public static void showMenu() {
