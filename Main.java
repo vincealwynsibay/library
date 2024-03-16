@@ -15,29 +15,8 @@ public class Main {
             if (repository.getCurrentAccount() != null) {
                 showMenu();
 
-                // if (input.equals("1")) {
-                // System.out.println(repository.getBooks());
-                // } else if (input.equals("2")) {
-                // // TODO: SEARCH BOOK INPUT
-                // System.out.println("Enter book title: ");
-                // } else if (input.equals("3")) {
-                // // TODO: BORROW BOOK INPUT
-                // System.out.println("Enter book id: ");
-                // } else if (input.equals("4")) {
-                // // TODO: RETURN BOOK INPUT
-                // System.out.println("Enter book id: ");
-                // } else if (input.equals("5")) {
-                // repository.logoutUser();
-                // }
-
             } else {
                 showLoginRegister();
-
-                // if (input.equals("1")) {
-                // // TODO: LOGIN INPUT
-                // } else if (input.equals("2")) {
-                // // TODO: REGISTER INPUT
-                // }
             }
 
             scanner.close();
