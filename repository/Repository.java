@@ -8,8 +8,9 @@ import data.User;
 public class Repository {
     private static Repository instance;
 
-    private User currentAccount = null;
     private static ArrayList<Book> books = new ArrayList<Book>();
+    private static ArrayList<User> users = new ArrayList<User>();
+    private User currentAccount = null;
 
     // get the Singleton instance
     public static Repository getInstance() {
